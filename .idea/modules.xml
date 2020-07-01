@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/twitter-client/twitter-client.iml" filepath="$PROJECT_DIR$/twitter-client/twitter-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uc-pizza-app/uc-pizza-app.iml" filepath="$PROJECT_DIR$/uc-pizza-app/uc-pizza-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/uc-template/uc-template.iml" filepath="$PROJECT_DIR$/uc-template/uc-template.iml" />
     </modules>
   </component>

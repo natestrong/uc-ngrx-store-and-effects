@@ -16,10 +16,6 @@ import {SelectedTweetComponent} from './tweets/selected-tweet/selected-tweet.com
 import {HomepageComponent} from './homepage/homepage.component';
 import {AppMaterialModule} from './material/material.module';
 
-export const metaReducers: MetaReducer<any>[] = !environment.production
-  ? [storeFreeze]
-  : [];
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +30,8 @@ export const metaReducers: MetaReducer<any>[] = !environment.production
     BrowserAnimationsModule,
     AppRoutingModule,
     AppMaterialModule,
-    StoreModule.forRoot({}, {metaReducers}),
+    StoreModule.forRoot([]),
+    StoreDevtoolsModule.instrument({maxAge: 25}),
     EffectsModule.forRoot([]),
     environment.production ? StoreDevtoolsModule.instrument() : [],
   ],
