@@ -1,0 +1,17 @@
+.header {
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: "MuseoModerno", serif;
+}
+
+.links {
+  margin: 0 auto;
+}
+.links button {
+  margin: 4px;
+}
+.links .active-link {
+  background: grey;
+}
+
+/*# sourceMappingURL=app.component.css.map */
