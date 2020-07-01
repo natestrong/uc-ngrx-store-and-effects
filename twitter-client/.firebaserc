@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ucla-data-science": {
+      "hosting": {
+        "twitter-client": [
+          "ucla-data-science"
+        ]
+      }
+    }
+  }
+}
